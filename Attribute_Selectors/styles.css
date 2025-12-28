@@ -1,0 +1,10 @@
+/* Group Selector */
+h1,
+h2 {
+  color: purple;
+}
+/* Attribute Selector */
+[data-priority="high"] {
+  color: red;
+  background-color: yellow;
+}
