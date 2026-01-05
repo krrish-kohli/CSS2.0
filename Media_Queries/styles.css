@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Large screen css styles */
+body {
+  background-color: lightblue;
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+  body {
+    background-color: coral;
+  }
+}
+
+/* Small devices (phones, 480px and below) */
+@media (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}

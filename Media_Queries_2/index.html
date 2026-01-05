@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Responsive 3-Column Layout</title>
+
+    <!-- Link external CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="header">
+        <div>
+          <h1 class="title">Dashboard Layout</h1>
+          <p class="subtitle">
+            A responsive grid that’s 3 columns on desktop, 2 on tablets, and 1
+            on phones.
+          </p>
+        </div>
+
+        <div class="chipRow">
+          <span class="chip"> <span class="dot"></span> Design System </span>
+          <span class="chip">
+            <span class="dot green"></span> Responsive Grid
+          </span>
+        </div>
+      </header>
+
+      <section class="grid">
+        <article class="card">
+          <div class="cardInner">
+            <div class="cardTop">
+              <div class="icon">✦</div>
+              <span class="badge">Overview</span>
+            </div>
+            <h3>Analytics Snapshot</h3>
+            <p>High-level metrics with clean hierarchy and spacing.</p>
+            <div class="cardFooter">
+              <a href="#" class="link">View details →</a>
+              <span class="meta">Updated today</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cardInner">
+            <div class="cardTop">
+              <div class="icon green">✓</div>
+              <span class="badge">Tasks</span>
+            </div>
+            <h3>Action Items</h3>
+            <p>Touch-friendly cards that adapt nicely on mobile.</p>
+            <div class="cardFooter">
+              <a href="#" class="link">Open list →</a>
+              <span class="meta">6 pending</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cardInner">
+            <div class="cardTop">
+              <div class="icon blue">⚑</div>
+              <span class="badge">Updates</span>
+            </div>
+            <h3>Release Notes</h3>
+            <p>Subtle depth and color for visual clarity.</p>
+            <div class="cardFooter">
+              <a href="#" class="link">Read more →</a>
+              <span class="meta">v2.4.1</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

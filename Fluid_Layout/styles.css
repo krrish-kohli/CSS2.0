@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  background-color: #f3f3;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box {
+  background-color: teal;
+  width: 48%;
+  text-align: center;
+}
