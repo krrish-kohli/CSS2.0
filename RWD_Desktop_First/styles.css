@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Default styles for large desktops */
+.header {
+  background-color: blue;
+  font-size: 30px;
+  height: 100px;
+  color: white;
+  padding: 40px;
+}
+
+/* Small desktops */
+@media (max-width: 1439px) {
+  .header {
+    background-color: darkorange;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1279px) {
+  .header {
+    background-color: green;
+  }
+}
+
+/* Larger phones */
+@media (max-width: 767px) {
+  .header {
+    background-color: rebeccapurple;
+  }
+}
+
+/* Smaller phones */
+@media (max-width: 374px) {
+  .header {
+    background-color: yellow;
+  }
+}
