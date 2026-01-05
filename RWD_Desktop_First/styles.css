@@ -13,7 +13,13 @@
 }
 
 /* Small desktops */
-@media (max-width: 1439px) {
+/* @media (max-width: 1439px) {
+  .header {
+    background-color: darkorange;
+  }
+} */
+
+@media screen and (max-width: 1439px) {
   .header {
     background-color: darkorange;
   }
